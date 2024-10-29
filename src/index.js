@@ -6,18 +6,20 @@ import App from "./App";
 import { storyblokInit, apiPlugin } from "@storyblok/react";
 
 import Page from "./components/Page";
-import Teaser from "./components/Teaser";
 import Grid from "./components/Grid";
 import Feature from "./components/Feature";
+import SectionWithVideo from "./components/SectionWithVideo";
+import Header1 from "./components/Header1";
 
 storyblokInit({
   accessToken: "FHFHNN2pdhyuVQUXi9SU4gtt",
   use: [apiPlugin],
   components: {
     page: Page,
-    teaser: Teaser,
+    header1: Header1,
     grid: Grid,
     feature: Feature,
+    sectionWithVideo:SectionWithVideo,
   },
   apiOptions: {
     // for spaces located in the US or China:
