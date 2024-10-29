@@ -10,6 +10,7 @@ import Grid from "./components/Grid";
 import Feature from "./components/Feature";
 import SectionWithVideo from "./components/SectionWithVideo";
 import Header1 from "./components/Header1";
+import Link from "./components/Link";
 
 storyblokInit({
   accessToken: "FHFHNN2pdhyuVQUXi9SU4gtt",
@@ -17,6 +18,7 @@ storyblokInit({
   components: {
     page: Page,
     header1: Header1,
+    link:Link,
     grid: Grid,
     feature: Feature,
     sectionWithVideo:SectionWithVideo,
