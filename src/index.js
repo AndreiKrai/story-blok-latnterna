@@ -14,6 +14,7 @@ import Link from "./components/Link";
 import ButtonLink from "./components/ButtonLink";
 import Block from "./components/Block";
 import Section from "./components/Section";
+import NumberAndTitle from "./components/NumberAndTitle";
 
 storyblokInit({
   accessToken: "FHFHNN2pdhyuVQUXi9SU4gtt",
@@ -28,6 +29,7 @@ storyblokInit({
     feature: Feature,
     section:Section,
     sectionWithVideo:SectionWithVideo,
+    numberAndTitle:NumberAndTitle
   },
   apiOptions: {
     // for spaces located in the US or China:

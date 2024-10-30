@@ -4,7 +4,8 @@ const Section = ({ blok }) => {
   return (
     <section
       {...storyblokEditable(blok)}
-      class="flex items-center justify-center px-5 py-20 md:px-10 md:py-37"
+      class="text-center px-5 py-20 md:px-10 md:py-[150px]"
+      style={{backgroundColor: blok.backgroundColor}}
     >
          {blok.body.map((nestedBlok) => (
           <StoryblokComponent blok={nestedBlok} key={nestedBlok._uid} />
