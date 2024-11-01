@@ -1,21 +1,21 @@
 import { StoryblokComponent, storyblokEditable } from "@storyblok/react";
 
 const Grid = ({ blok }) => {
-  let justifyContent;
+  // let justifyContent;
 
-  switch (blok.align) {
-    case "space-around":
-      justifyContent="space-around"
-      break;
-      case "center":
-      justifyContent="center"
-      break;
-    default:justifyContent="center"
-      break;
-  }
+  // switch (blok.align) {
+  //   case "space-around":
+  //     justifyContent="space-around"
+  //     break;
+  //     case "center":
+  //     justifyContent="center"
+  //     break;
+  //   default:justifyContent="center"
+  //     break;
+  // }
   return (
     <div
-      style={{ display: "flex", justifyContent: justifyContent }}
+      style={{ display: "flex", justifyContent: blok.align }}
       {...storyblokEditable(blok)}
       className="grid"
     >
