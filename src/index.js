@@ -19,6 +19,8 @@ import Text from "./components/Text";
 import BlockColumn from "./components/BlockColumn";
 import Image from "./components/Image";
 import CheckmarkWithTitle from "./components/CheckmarkWithTitle";
+import SwiperComponent from "./components/Swiper";
+import GreyCard from "./components/GreyCard";
 
 storyblokInit({
   accessToken: "FHFHNN2pdhyuVQUXi9SU4gtt",
@@ -38,6 +40,8 @@ storyblokInit({
     text: Text,
     image: Image,
     checkmarkWithTitle: CheckmarkWithTitle,
+    swiperComponent: SwiperComponent,
+    greyCard: GreyCard,
   },
   apiOptions: {
     // for spaces located in the US or China:
