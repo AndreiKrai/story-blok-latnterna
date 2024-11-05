@@ -21,6 +21,7 @@ import Image from "./components/Image";
 import CheckmarkWithTitle from "./components/CheckmarkWithTitle";
 import SwiperComponent from "./components/Swiper";
 import GreyCard from "./components/GreyCard";
+import SwiperTeachers from "./components/SwiperTeachers";
 
 storyblokInit({
   accessToken: "FHFHNN2pdhyuVQUXi9SU4gtt",
@@ -41,6 +42,7 @@ storyblokInit({
     image: Image,
     checkmarkWithTitle: CheckmarkWithTitle,
     swiperComponent: SwiperComponent,
+    swiperTeachers:SwiperTeachers,
     greyCard: GreyCard,
   },
   apiOptions: {
