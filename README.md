@@ -1,3 +1,7 @@
+# Video overview
+https://drive.google.com/file/d/1yAGGEUJ1sy-8YeNWSpxvoEbNhmO2_g5d/view?usp=share_link
+
+You also can watch this video to see how easy to use Storyblok with example of creation new section even non skilled personal and the ability to do so with a real-life preview: https://drive.google.com/file/d/1yvgaD2ZspMEhm-7PVt1ZIR48IHTQpy5U/view?usp=sharing
 
 # Storyblok quick starter project
 
@@ -17,7 +21,6 @@ that's it
 
 on Windows read https://www.storyblok.com/faq/setup-dev-server-https-windows
 
-You also can watch this video to see how easy to use Storyblok with example of creation new section even non skilled personal and the ability to do so with a real-life preview: https://drive.google.com/file/d/1yvgaD2ZspMEhm-7PVt1ZIR48IHTQpy5U/view?usp=sharing
 
 Futher detailed documentation
 1. Start the server:  cd ./my-story-block-lanterna  && npm install && npm run start
