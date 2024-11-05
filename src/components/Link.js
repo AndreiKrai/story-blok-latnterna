@@ -2,8 +2,7 @@ import { storyblokEditable } from "@storyblok/react";
 import { tailwindTextColorClass } from "../utils/chooseColor";
 
 const Link = ({ blok }) => {
-  const textColor = tailwindTextColorClass(blok?.textColor);
-
+ 
   let textSizeClass;
 
   switch (blok.size) {
@@ -31,7 +30,8 @@ const Link = ({ blok }) => {
   return (
     <div {...storyblokEditable(blok)} className={`${blok.marginTop}`}>
       <a
-        className={`text-white ${textSizeClass} ${textColor}`}
+        className={`text-white ${textSizeClass}  `}
+        style={{color:blok.textColor}}
         href={blok.href}
       >
         {blok.title}
