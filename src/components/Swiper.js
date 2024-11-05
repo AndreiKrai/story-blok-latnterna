@@ -22,7 +22,25 @@ import { storyblokEditable } from "@storyblok/react";
       pagination={{ clickable: true }}
       loop={true}
       autoplay={{ delay: 2500, disableOnInteraction: false }}
-      style={{paddingTop:30, paddingLeft:60, paddingRight:60, paddingBottom:40}}
+      style={{paddingTop:30,  paddingBottom:40}}
+      breakpoints={{
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1280: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+      }}
       {...storyblokEditable(blok)}
     >
       {images.map((image, index) => (
