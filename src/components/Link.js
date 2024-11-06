@@ -1,5 +1,4 @@
 import { storyblokEditable } from "@storyblok/react";
-import { tailwindTextColorClass } from "../utils/chooseColor";
 
 const Link = ({ blok }) => {
  
