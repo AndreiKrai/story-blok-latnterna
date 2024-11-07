@@ -22,6 +22,9 @@ import CheckmarkWithTitle from "./components/CheckmarkWithTitle";
 import SwiperComponent from "./components/Swiper";
 import GreyCard from "./components/GreyCard";
 import SwiperTeachers from "./components/SwiperTeachers";
+import { ThemeProvider } from "@material-tailwind/react";
+import { MegaMenuDefault } from "./components/MegaMenu";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 storyblokInit({
   accessToken: "FHFHNN2pdhyuVQUXi9SU4gtt",
@@ -42,8 +45,9 @@ storyblokInit({
     image: Image,
     checkmarkWithTitle: CheckmarkWithTitle,
     swiperComponent: SwiperComponent,
-    swiperTeachers:SwiperTeachers,
+    swiperTeachers: SwiperTeachers,
     greyCard: GreyCard,
+    megaMenuDefault:MegaMenuDefault
   },
   apiOptions: {
     // for spaces located in the US or China:
@@ -56,6 +60,9 @@ const container = document.getElementById("app");
 const root = createRoot(container);
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider>
+      {" "}
+      <App />
+    </ThemeProvider>
   </React.StrictMode>
 );

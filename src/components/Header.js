@@ -9,7 +9,7 @@ const Header = ({ blok }) => {
     case "h2":
       element = (
         <h2
-          className={`lg:text-6xl text-5xl ${textColor} ${blok.marginTop}`}
+          className={`lg:text-7xl text-5xl ${textColor} ${blok.marginTop}`}
           {...storyblokEditable(blok)}
         >
           {blok.headline}

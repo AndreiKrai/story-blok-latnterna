@@ -6,7 +6,7 @@ const CheckmarkWithTitle = ({ blok }) => {
 
   return (
     <div
-      className={`${textColor} ${blok.marginTop} flex flex-col items-center`}
+      className={`${textColor} ${blok.marginTop} flex flex-col items-center `}
       style={{maxWidth:150}}
       {...storyblokEditable(blok)}
     >
