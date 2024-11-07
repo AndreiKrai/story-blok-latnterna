@@ -6,7 +6,7 @@ const SectionWithVideo = ({ blok }) => {
       {...storyblokEditable(blok)}
       class="h-[500px] xl-h-[609px] flex items-center justify-center relative"
     >
-      <div class="absolute w-full h-[500px] xl-h-[609px] overflow-hidden flex items-center justify-center">
+      <div class="absolute w-full h-[500px] xl:h-[609px] overflow-hidden flex items-center justify-center">
         <video
           autoPlay
           loop
