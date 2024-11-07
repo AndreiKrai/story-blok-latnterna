@@ -23,7 +23,7 @@ import SwiperComponent from "./components/Swiper";
 import GreyCard from "./components/GreyCard";
 import SwiperTeachers from "./components/SwiperTeachers";
 import MenuSection from "./components/MenuSection";
-
+import { ThemeProvider } from "@material-tailwind/react";
 storyblokInit({
   accessToken: "FHFHNN2pdhyuVQUXi9SU4gtt",
   use: [apiPlugin],
@@ -43,9 +43,9 @@ storyblokInit({
     image: Image,
     checkmarkWithTitle: CheckmarkWithTitle,
     swiperComponent: SwiperComponent,
-    swiperTeachers:SwiperTeachers,
+    swiperTeachers: SwiperTeachers,
     greyCard: GreyCard,
-    menuSection:MenuSection
+    menuSection: MenuSection,
   },
   apiOptions: {
     // for spaces located in the US or China:
@@ -58,6 +58,9 @@ const container = document.getElementById("app");
 const root = createRoot(container);
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider>
+      {" "}
+      <App />
+    </ThemeProvider>
   </React.StrictMode>
 );

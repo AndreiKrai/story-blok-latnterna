@@ -2,7 +2,7 @@ import { StoryblokComponent, storyblokEditable } from "@storyblok/react";
 import { justifyContent } from "../utils/alignment";
 import { useEffect, useState } from "react";
 import Logo from "./Logo";
-
+import { Button } from "@material-tailwind/react";
 const MenuSection = ({ blok }) => {
   const [showHeader, setShowHeader] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -38,7 +38,7 @@ const MenuSection = ({ blok }) => {
                 <Logo></Logo>
                 <div></div>
                 <div></div>
-                
+                <Button>Hello</Button>
         <hi>Hello</hi>
         {/* {blok.item.map((blok) => (
           <StoryblokComponent blok={blok} key={blok._uid} />
