@@ -22,6 +22,7 @@ import CheckmarkWithTitle from "./components/CheckmarkWithTitle";
 import SwiperComponent from "./components/Swiper";
 import GreyCard from "./components/GreyCard";
 import SwiperTeachers from "./components/SwiperTeachers";
+import MenuSection from "./components/MenuSection";
 
 storyblokInit({
   accessToken: "FHFHNN2pdhyuVQUXi9SU4gtt",
@@ -44,6 +45,7 @@ storyblokInit({
     swiperComponent: SwiperComponent,
     swiperTeachers:SwiperTeachers,
     greyCard: GreyCard,
+    menuSection:MenuSection
   },
   apiOptions: {
     // for spaces located in the US or China:
